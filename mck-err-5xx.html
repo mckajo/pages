@@ -122,6 +122,35 @@
         width: 100%;
         display: block;
       }
+
+
+      .cf-info {
+        font-size: 0.875rem;
+        color: #64748b;
+      }
+
+      .cf-error-details>h1 {
+        font-size: 16px;
+        color: #1e293b;
+        padding: 0.5rem 1rem;
+        font-weight: 500;
+      }
+
+      .cf-error-details>ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .cf-error-details>ul>li {
+        display: inline;
+      }
+
+
     </style>
   </head>
   <body>
@@ -341,7 +370,7 @@
         <div class="error-details-box">
           <div class="error-header">Error Details</div>
           <div class="divider"></div>
-          <div class="error-row">
+          <div class="cf-info">
             ::CLOUDFLARE_ERROR_500S_BOX::
           </div>
         </div>
